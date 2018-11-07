@@ -8,7 +8,7 @@
     <Owner>synogen</Owner>
     <Project>rimworldmods</Project>
     <AboutDir>CraftableSynthreadAndHyperweave/About</AboutDir>
-    <DownloadFrom>ModSyncMainPage</DownloadFrom>
+    <DownloadFrom>ModSyncReleases</DownloadFrom>
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
