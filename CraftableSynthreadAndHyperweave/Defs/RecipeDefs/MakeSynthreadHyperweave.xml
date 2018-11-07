@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>CraftHyperweave</defName>
+    <label>Make hyperweave</label>
+    <description>Make hyperweave.</description>
+    <jobString>Making hyperweave.</jobString>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <workSkill>Crafting</workSkill>
+    <ingredients>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Synthread</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DevilstrandCloth</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Hyperweave>1</Hyperweave>
+    </products>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+	<researchPrerequisite>Hyperweave</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>CraftSynthread</defName>
+    <label>Make synthread</label>
+    <description>Make synthread.</description>
+    <jobString>Making synthread.</jobString>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <workSkill>Crafting</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <Synthread>1</Synthread>
+    </products>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+	<researchPrerequisite>Synthread</researchPrerequisite>
+  </RecipeDef>
+</Defs>

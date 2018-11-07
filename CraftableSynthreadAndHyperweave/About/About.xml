@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Craftable synthread and hyperweave</name>
+  <author>synogen</author>
+  <targetVersion>1.0.1939</targetVersion>
+  <description>Craft synthread and hyperweave at your tailor benches. Requires researching both synthread and hyperweave first. A multi-analyzer is needed as well as these are higher technologies. Synthread requires cloth and steel to make, hyperweave requires synthread, silver, plaststeel and devilstrand.</description>
+</ModMetaData>
